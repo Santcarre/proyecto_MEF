@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Entorno y secretos
+.env
+.env.*
+**/.streamlit/secrets.toml
+
+# LaTeX (artefactos; mantén .tex y .pdf en el repo si los usas en despliegue)
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
